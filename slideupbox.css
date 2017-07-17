@@ -1,0 +1,45 @@
+.boxgrid {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.cover {
+	position: relative;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+	font-family: arial;
+	text-align: center;
+	background: #000;
+	color: #fff;
+}
+
+.cover h3 {
+	margin-top: 10px;
+	border-bottom: 1px dotted #444;
+	display: table-cell;
+	vertical-align: middle;
+	height: 70px; 
+	color: #fff;	
+}
+
+.cover p {
+	font-size: 12px;
+	margin: 20px 5% 10px 5%;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+
+.cover.top-down-part h3 {
+	position: absolute;
+	top: 65%;
+	border-bottom: 0px;
+	border-top: 1px dotted #444;
+	padding-top: 5%;
+	margin-top: 30px;
+}
+
+.cover.top-down-part p {
+	position: absolute;
+	top: 30%;
+}
